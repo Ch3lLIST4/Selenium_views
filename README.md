@@ -1,2 +1,2 @@
-# youtube_view_sim
+## Youtube views - Selenium
 A small youtube script to manually boost views using Selenium
