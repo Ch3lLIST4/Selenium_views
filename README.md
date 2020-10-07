@@ -2,9 +2,9 @@
 
 A small youtube script to manually boost views using Selenium
 
-Follow each session in setup guide in order to be able to use the script
+Follow each session in setup guide below in order to be able to use the script
 
-## Setup
+## Installation Setup
 
 * ChromeDriver version may vary in your machine 
 
