@@ -1,4 +1,4 @@
-## Selenium views
+## Selenium Views
 
 A small youtube script to manually boost views using Selenium
 
