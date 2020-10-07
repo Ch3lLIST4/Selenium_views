@@ -32,3 +32,6 @@ Follow each session in setup guide below in order to be able to use the script
 * Run the script
 
   * Open directory in your cmd and hit 'python up.py', or simply run the 'run.bat' file in this folder
+  
+## Video
+[![sen_views_demo](https://img.youtube.com/vi/s7fwrQj5Ups/0.jpg)](https://www.youtube.com/watch?v=s7fwrQj5Ups)
