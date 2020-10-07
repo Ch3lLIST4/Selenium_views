@@ -10,7 +10,7 @@ video_index = 0
 
 # other users change these variables
 chrome_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" # (path to your google chrome exe, \\ is \ in python)
-number_of_videos = 7 # number of videos in your video_list.txt (I recommend lower number if your browser cant handle)
+number_of_videos = 10 # number of videos in your video_list.txt (I recommend lower number if your browser cant handle)
 
 # set browser's components
 options = webdriver.ChromeOptions()
