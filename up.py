@@ -17,6 +17,7 @@ number_of_videos = 10 # number of videos in your video_list.txt (I recommend low
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument('headless')
+options.add_argument("--mute-audio")
 options.binary_location = BROWSER_PATH
 chrome_driver_binary = DRIVER_PATH
 
