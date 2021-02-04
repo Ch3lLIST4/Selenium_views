@@ -9,13 +9,16 @@ list_video = file.readlines()
 video_index = 0
 
 # other users change these variables
-chrome_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" # (path to your google chrome exe, \\ is \ in python)
+BROWSER_PATH = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" # (path to your google chrome exe, \\ is \ in python)
+DRIVER_PATH = "../chromedriver_win32/chromedriver.exe"
 number_of_videos = 10 # number of videos in your video_list.txt (I recommend lower number if your browser cant handle)
 
 # set browser's components
 options = webdriver.ChromeOptions()
-options.binary_location = chrome_path
-chrome_driver_binary = "./chromedriver.exe"
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+options.add_argument('headless')
+options.binary_location = BROWSER_PATH
+chrome_driver_binary = DRIVER_PATH
 
 try:
 	print('tool running..')
